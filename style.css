@@ -10,38 +10,48 @@
     margin-bottom: 3px;
     /* width: 50%; */
     width: 60%;
-    box-shadow:inset 0px 34px 0px -15px #b54b3a;
-	  background-color:#a73f2d;
-	  border:4px solid #241d13;
+    box-shadow:inset 0px 34px 0px -15px #98bea7;
+	  background-color:#98bea7;
+	  border:2px solid #3d5948;
 	  display:inline-block;
 	  cursor:pointer;
 	  color:#ffffff;
 	  font-family:Arial;
-	  font-size:15px;
+	  font-size:20px;
 	  font-weight:bold;
-	  /* padding:9px 23px; */
+	  padding:9px 23px;
 	  text-decoration:none;
+    text-shadow: #3d5948 1px 1px 1px;
+    box-sizing: border-box;
 	
 }
 
 
 .modal {
-  display: none;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  left: 20%;
+  width: 60%;
+  top: 10%;
+  /* display: block;
   position: fixed;
   z-index: 1;
   left: 0;
   top: 10%;
-  width: 100%;
+  width: 60%;
   height: auto;
   overflow: auto;
-  background-color: bisque;
+  background-color: #ddf5e6;
   align-items: center;
+  justify-content: center; */
 }
 .modal-content {
-  background-color: aliceblue;
+  background-color: white;
   margin: 15% auto;
   padding: 20px;
-  border: 2px solid #a73f2d;
+  border: 2px solid #3d5948;
   width: 80%;
 }
 .close {
